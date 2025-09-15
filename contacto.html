@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>Ingresa tu datos para ser fan de bry!</h1>
+    </div>
+    <form action="">
+        <div>
+            <h2>Ingresa tus datos</h2>
+            <label for="name">Ingresa tu nombre: <input type="text" id="name" required></label>
+            <label for="email">Ingresa tu correo: <input type="email" id="email" required></label>
+            <label for="telefono">Ingresa tu telefono: <input type="number" id="telefono" required></label>
+        </div>
+        <div>
+            <label for="explicacion">Explica el porque eres fan de BRY:<textarea rows="3" cols="20" id="explicacion" required></textarea></label>
+        </div>
+        <div>
+            <label for="opciones">que haces aqui?
+                <select name="clasificacion" id="clasificacion">
+                    <option>*Seleciona*</option>
+                    <option>Contratacion</option>
+                    <option>Personal</option>
+                    <option>Otro</option>
+                </select>
+            </label>
+        </div>
+        <input type="submit"/>
+    </form>
+</body>
+</html>

@@ -1,63 +1,89 @@
-.nombre {
+.presentacion {
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+    margin-bottom: 4px;
     
+    
+}
+
+.Imagen{
+    display: flex;
+    flex: :auto;
+    min-width: 280px;
+    height: 300px;
+    border:  2px solid yellow;
+    object-fit: cover; 
+    border-radius: 20px;
+    margin:0  auto;
+    margin-top: 3px;
+    
+    
+    
+}
+/*mas importante el div que la clase*/
+.cuadro{
+
+    width: 40%;
+    height: 100%;
     min-width: 280px;
     min-height: 280px;
-    text-align: center;
-    font-size: 10;
-    color:white;
-    font-style:inherit;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.Imagen{
-    width: 250px;
-    height: 280px;
-    border:  2px solid yellow;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 20px;
-    
-}
-div{
-
-    width: 30%;
-    height: 100%;
+    max-width:350px;
+    max-height: 100%; 
     background-color:rgb(204, 157, 38);
-    margin:0 0 0 35%;
-    padding: 10px;
+    margin: auto;
+    padding: 10px ;
     border: 5px solid #ffff;
-    text-align: center;
     border-radius: 30px;
     margin-bottom: 10px;
     
 
 }
-body{
-   background-color:antiquewhite; 
+.cuadro_descripcion{
+
+    width: 40%;
+    height: 100%;
+    min-width: 280px;
+    min-height: 200px;
+    max-width:350px;
+    max-height: 300px; 
+    background-color:rgb(204, 157, 38);
+    margin: auto;
+    padding: 10px ;
+    border: 5px solid #ffff;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    
+
 }
-h1{
+.cuerpo_presentacion{
+   background-image: url("imagen_bry.jpg") ; 
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   background-color: lightcyan;
+
+}
+.titulo{
+    margin-top: 12px;
+    text-align: center;
     color: gainsboro;
 }
 .descripcion{
-    min-width: 280px;
-    min-height: 200px;
+    text-align: center;
     color: white;
-    padding-bottom: -30px;
+    
 }
-h3{
-    margin-top:-10px ;
-    margin-bottom: -2px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:gold;
-}
-div .bry{
-    width: 70%;
+
+.bry{
+    text-align: center;
+    width: 60%;
     background-color: antiquewhite;
-    font-weight: 800;
+    font-weight: bold;
     color: black;
-    margin-left: 10%;
-    margin-right:10% ;
+    border: solid gray;
+    margin:auto;
+    padding: 8px;
+    border-radius: 15px;
     border-color: cadetblue;
-}
-p{
-    padding-bottom: -8px;
 }
