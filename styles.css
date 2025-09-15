@@ -35,7 +35,7 @@
     
     width: 100%;
     height: 80px;
-    background-color: #1b1b32;
+    background-color: rgb(197, 174, 142);
     display: flex;
 }
 #logo{
@@ -44,7 +44,7 @@
     width: max(4rem, 3vw);
     background-color: beige;
     aspect-ratio: 32/4;
-    padding: 0.2rem;
+    padding: 0.5rem;
     
 
 }
@@ -131,22 +131,22 @@
     gap:20px;
 }
 #cuerpo_formulario{
-    color: aliceblue;
+    color: rgb(67, 96, 21);
     display: flex;
     justify-content: center;
 }
 input{
-    color: azure;
-    background-color: #25254e;
+    color: rgb(218, 126, 126);
+    background-color: #d3fffb;
     border-style:groove;
 }
 select{
-    color: antiquewhite;
-    background-color: #25254e;
+    color: rgb(67, 96, 21);
+    background-color: #d3fffb;
 }
 #enviar{
     color: yellowgreen;
-    background-color: #353566;
+    background-color: #d3fffb;
     padding: 10px;
     width: 300px;
     
@@ -158,16 +158,20 @@ section:last-of-type{
     margin-bottom: 50PX; 
 }
 textarea{
-    background-color: #25254e;
+    color: rgb(23, 25, 26);
+    margin-top: 10px;
+    background-color: #d3fffb;
     border-radius:10%;
 }
 #cuadro_formulario_contacto{
+
+    
     text-align: center;
     margin-top: 10%;
     padding: 20px;
     width: 25rem;
     height: 30rem;
-    background-color: #1b1b32;
+    background-color: blanchedalmond;
 }
 .seccion{
     margin
