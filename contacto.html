@@ -7,19 +7,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header id="encabezado">
+        <img id="logo" alt="logo" src="logo.png">
+        <h1 id="titulo_formulario">Ingresa tu datos para ser fan de bry!</h1>
+    </header>
     <div>
-        <h1>Ingresa tu datos para ser fan de bry!</h1>
+
     </div>
-    <form action="">
-        <div>
+    <form method="post">
+        <section>
             <h2>Ingresa tus datos</h2>
-            <label for="name">Ingresa tu nombre: <input type="text" id="name" required></label>
-            <label for="email">Ingresa tu correo: <input type="email" id="email" required></label>
-            <label for="telefono">Ingresa tu telefono: <input type="number" id="telefono" required></label>
-        </div>
-        <div>
-            <label for="explicacion">Explica el porque eres fan de BRY:<textarea rows="3" cols="20" id="explicacion" required></textarea></label>
-        </div>
+            <div>
+                <label for="name">Ingresa tu nombre: </label><input type="text" id="name" required>
+            </div>
+            <div>
+            <label for="email">Ingresa tu correo: </label><input type="email" id="email" required>
+            </div>
+            <div>
+            <label for="telefono">Ingresa tu telefono: </label><input type="number" id="telefono" required>
+            </div>
+        </section>
+        <section>
+            <div>
+                <label for="explicacion">Explica el porque eres fan de BRY:</textarea></label>
+                <div>
+                    <textarea rows="3" cols="20" id="explicacion" required></textarea>
+                </div>
+            </div>
+        </section>
         <div>
             <label for="opciones">que haces aqui?
                 <select name="clasificacion" id="clasificacion">
