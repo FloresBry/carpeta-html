@@ -6,44 +6,52 @@
     <title>Formulario de Contacto</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+
+<body id="fondo_formulario">
     <header id="encabezado">
         <img id="logo" alt="logo" src="logo.png">
         <h1 id="titulo_formulario">Ingresa tu datos para ser fan de bry!</h1>
     </header>
     <main>
-    <form method="post">
-        <section>
-            <h2>Ingresa tus datos</h2>
-            <div>
-                <label for="name">Ingresa tu nombre: </label><input type="text" id="name" required>
-            </div>
-            <div>
-            <label for="email">Ingresa tu correo: </label><input type="email" id="email" required>
-            </div>
-            <div>
-            <label for="telefono">Ingresa tu telefono: </label><input type="number" id="telefono" required>
-            </div>
-        </section>
-        <section>
-            <div>
-                <label for="explicacion">Explica el porque eres fan de BRY:</textarea></label>
+        
+    <form method="post" id="cuerpo_formulario">
+        
+        <div id="cuadro_formulario_contacto" >
+            <h2>BRY FANS</h2>
+            <section> 
                 <div>
-                    <textarea rows="3" cols="40" id="explicacion" required></textarea>
+                    <label for="name">Ingresa tu nombre: </label><input type="text" id="name" required>
                 </div>
-            </div>
-        </section>
-        <div>
-            <label for="opciones">que haces aqui?
-                <select name="clasificacion" id="clasificacion">
-                    <option>*Seleciona*</option>
-                    <option>Contratacion</option>
-                    <option>Personal</option>
-                    <option>Otro</option>
-                </select>
-            </label>
+                <div>
+                <label for="email">Ingresa tu correo: </label><input type="email" id="email" required>
+                </div>
+                <div>
+                <label for="telefono">Ingresa tu telefono: </label><input type="number" id="telefono" required>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <label for="explicacion">Explica el porque eres fan de BRY:</textarea></label>
+                    <div>
+                        <textarea rows="3" cols="40" id="explicacion" required placeholder="Me encanta Bry!"></textarea>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <label for="opciones">que haces aqui?
+                        <select name="clasificacion" id="clasificacion">
+                            <option>*Seleciona*</option>
+                            <option>Contratacion</option>
+                            <option>Personal</option>
+                            <option>Otro</option>
+                        </select>
+                    </label>
+                </div>
+            </section>
+            <input type="submit" id="enviar"/>
         </div>
-        <input type="submit"/>
+        
     </form>
     </main>
 </body>

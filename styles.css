@@ -44,7 +44,7 @@
     width: max(4rem, 3vw);
     background-color: beige;
     aspect-ratio: 32/4;
-    padding: 0.4rem;
+    padding: 0.2rem;
     
 
 }
@@ -53,7 +53,13 @@
     text-align: center;
     font-size: min(7vw, 1.8em);
 }
-
+#fondo_formulario{
+    background-image:url("comida.jpg");
+    background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   background-color: lightcyan;
+}
 /*mas importante el div que la clase*/
 .cuadro{
 
@@ -123,4 +129,46 @@
 #principal{
     display: flex;
     gap:20px;
+}
+#cuerpo_formulario{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+input{
+    color: azure;
+    background-color: #25254e;
+    border-style:groove;
+}
+select{
+    color: antiquewhite;
+    background-color: #25254e;
+}
+#enviar{
+    color: yellowgreen;
+    background-color: #353566;
+    padding: 10px;
+    width: 300px;
+    
+}
+section{
+    margin-bottom: 30px;
+}
+section:last-of-type{
+    margin-bottom: 50PX; 
+}
+textarea{
+    background-color: #25254e;
+    border-radius:10%;
+}
+#cuadro_formulario_contacto{
+    text-align: center;
+    margin-top: 10%;
+    padding: 20px;
+    width: 25rem;
+    height: 30rem;
+    background-color: #1b1b32;
+}
+.seccion{
+    margin
 }
