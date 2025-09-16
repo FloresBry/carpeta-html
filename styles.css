@@ -54,7 +54,7 @@
     font-size: min(7vw, 1.8em);
 }
 #fondo_formulario{
-    background-image:url("comida.jpg");
+    background-image:url("imagenes/comida.jpg");
     background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -96,7 +96,7 @@
 
 }
 .cuerpo_presentacion{
-   background-image: url("imagen_bry.jpg") ; 
+   background-image: url("imagenes/imagen_bry.jpg"); 
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -173,6 +173,63 @@ textarea{
     height: 30rem;
     background-color: blanchedalmond;
 }
-.seccion{
-    margin
+
+.personaje{
+    background-image: url("imagenes/jose-jose_fondo.jpg");
+    background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   
+}
+.homenaje_encabezado{
+    background-color: #d3fffb;
+    width: 100%;
+    height: 80px;
+}
+.contenido_encabezado{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    opacity: 1;
+}
+.translucido{
+    opacity:0.8;
+}
+#titulo_josejose{
+    padding: 10%;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(54, 106, 2);
+
+}
+.caja_presentacion{
+    margin: auto;
+    margin-top: 7rem;
+    width:40;
+    height: 300px;
+    background-color: gray;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+}
+
+.presentacion_personaje{
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    margin-left: max(30px,7rem);
+    margin-right: max(20px,1rem);
+}
+#caja_enlaces{
+    text-align: center;
+    margin-top: 7rem;
+    width:40;
+    height: 100px;
+    background-color: gray;
+    color: #d3fffb;
+    font-family: Verdana, sans-serif;
 }
